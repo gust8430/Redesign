@@ -1,6 +1,22 @@
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     margin-left: 10vw;
     margin-right: 10vw;
+    background: rgb(192, 216, 213);
+    background: linear-gradient(0deg, rgba(192, 216, 213, 1) 0%, rgba(250, 218, 201, 1) 100%);
+    background-repeat: fullscreen;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1,
+h2 {
+    color: #f25161;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*-----------------Header--------------------*/
@@ -9,46 +25,115 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: grey;
+    /*overflow: hidden;*/
     top: 0;
     width: 100%;
     position: sticky;
     display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    z-index: 2;
+    background-color: #fadac9;
 }
 
 li {
-    float: right;
-    top: 1vw;
+    /*
+    float: right;*/
     position: relative;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 li a {
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 1vw 1vw;
     text-decoration: none;
 }
 
+/* unvisited link */
+li a:link {
+    color: #f25161;
+}
+
+/* visited link */
+li a:visited {
+    color: #f25161;
+}
+
+/* mouse over link */
+li a:hover {
+    color: #9c1623;
+}
+
+/* selected link */
+li a:active {
+    color: #f25161;
+}
+
 li a:hover:not(.active) {
-    background-color: #111;
+    color: #9c1623;
 }
 
 #headerlogo {
     font-size: 2rem;
-    font-family: 'Castoro', serif;
+    font-family: 'Montserrat', sans-serif;
+    justify-self: flex-start;
+    color: black;
+    flex-grow: 1;
+}
 
+#headerlogo a:link,
+#headerlogo a:visited,
+#headerlogo a:hover,
+#headerlogo a:active {
+
+    color: black;
+}
+
+forside.html,
+#forsidelink {
+    text-decoration-line: underline;
+    text-decoration-color: #f25161;
+}
+
+varer.html,
+#varerlink {
+    text-decoration-line: underline;
+    text-decoration-color: #f25161;
+
+}
+
+about.html,
+#aboutlink {
+    text-decoration-line: underline;
+    text-decoration-color: #f25161;
+}
+
+kontakt.html,
+#kontaktlink {
+    text-decoration-line: underline;
+    text-decoration-color: #f25161;
 }
 
 /*----------------------------------------*/
 
 #baggrundsvideo {
-    background-color: firebrick;
-    width: 16vw;
-    height: 9vw;
-    transform: scale(4);
-    top: 14vw;
-    left: 31vw;
+    background-image: url(images/banner.jpg);
+    width: 32vw;
+    height: 24vw;
+    top: 8vw;
+    left: 24vw;
     position: relative;
+    background-size: cover;
+}
+
+#velkommenboks {
+    text-align: center;
+    position: relative;
+    top: 10vw;
+}
+
+h1,
+h2 {
+    font-family: font-family: 'Montserrat', sans-serif;
 }
