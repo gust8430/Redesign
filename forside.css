@@ -1,4 +1,4 @@
-html {
+10.31 har sendt I dag kl. 10.31 html {
     height: 100%;
 }
 
@@ -12,6 +12,7 @@ body {
     background-size: cover;
 }
 
+#produktboks,
 img {
     width: 16vw;
     height: 12vw;
@@ -43,6 +44,7 @@ ul {
     align-items: baseline;
     z-index: 2;
     background-color: #fadac9;
+    left: 0;
 }
 
 li {
@@ -135,19 +137,21 @@ kontakt.html,
 }
 
 #velkommenboks {
-    text-align: center;
     position: relative;
     top: 10vw;
 }
 
+#velkommenright {
+    position: relative;
+    right: 0;
+}
+
 #byline {
     position: relative;
-    top: -4vw;
 }
 
 #hej {
     position: relative;
-    top: -4vw;
 }
 
 #produktboks {
@@ -159,15 +163,58 @@ kontakt.html,
     text-align: center;
 }
 
-/*------------------Footer------------------*/
+/*-------------------Collage------------------*/
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+}
 
+#collage {
+    position: relative;
+    top: 20vw;
+    display: grid;
+    grid-column-gap: 0;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 5vw;
+}
+
+#collage img {
+    width: 32vw;
+    height: 24vw;
+}
+
+#first {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#second {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#third {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#fourth {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*------------------Footer------------------*/
+/*
 footer {
-   /* position: fixed;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     height: 10vw;
     background-color: #fadac9;
     color: black;
-    text-align: center;*/
-}
+    text-align: center;
+    display: block;
+}*/
