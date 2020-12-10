@@ -179,46 +179,42 @@ p {
     border-color: black;
     border-style: solid;
     border-width: 2px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-
 }
 
 /*-------------------Collage------------------*/
 
 #collage {
     display: grid;
-    grid-template-rows: 1fr 0.5fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr 1fr;
     grid-row-gap: 4vw;
-    margin-left: 14vw;
     margin-top: 13vw;
 }
 
 #first {
     display: grid;
-    grid-column-gap: 4vw;
     grid-template-columns: 1fr 3fr;
 }
 
 #first img {
-    width: 32vw;
-    height: 24vw;
+    width: 48vw;
+    height: 36vw;
 }
 
 #second {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 4vw;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #second img {
-    width: 18vw;
-    height: 13.5vw;
+    width: 28vw;
+    height: 21vw;
 }
 
 #third {
     display: grid;
     grid-column-gap: 4vw;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #third p {
@@ -233,7 +229,7 @@ p {
 #fourth {
     display: grid;
     grid-column-gap: 4vw;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #fourth img {
