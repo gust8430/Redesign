@@ -246,3 +246,7 @@ footer {
     color: black;
     display: block;
 }
+
+#masterfooter {
+    padding: 10vw;
+}
