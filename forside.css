@@ -1,4 +1,4 @@
-10.31 har sendt I dag kl. 10.31 html {
+html {
     height: 100%;
 }
 
@@ -12,12 +12,9 @@ body {
     background-size: cover;
 }
 
-<<<<<<< HEAD:forside.css
-#produktboks, img {
-=======
+
 #produktboks,
 img {
->>>>>>> redesign/master:style.css
     width: 16vw;
     height: 12vw;
     background-size: cover;
@@ -99,7 +96,6 @@ li a:hover:not(.active) {
 #headerlogo a:visited,
 #headerlogo a:hover,
 #headerlogo a:active {
-
     color: black;
 }
 
@@ -130,56 +126,49 @@ kontakt.html,
 
 /*------------------Forside------------------*/
 
+
+
 #baggrundsvideo {
     background-image: url(images/banner.jpg);
     width: 32vw;
     height: 24vw;
     top: 8vw;
-    left: 24vw;
-    position: relative;
     background-size: cover;
 }
 
 #velkommenboks {
-    position: relative;
-    top: 10vw;
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+grid-template-columns: 1fr 1fr;
 }
 
 #velkommenright {
-    position: relative;
-    right: 0;
+    margin-top: 11vw;
 }
 
 #byline {
-    position: relative;
 }
 
 #hej {
-    position: relative;
 }
 
 #produktboks {
-    position: relative;
-    top: 14vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 2vw;
-    text-align: center;
 }
 
 /*-------------------Collage------------------*/
 .center {
-<<<<<<< HEAD:forside.css
-  margin: auto;
-  width: 50%;
-  border: 3px;
-  padding: 10px;
-=======
     margin: auto;
     width: 50%;
     border: 3px;
     padding: 10px;
->>>>>>> redesign/master:style.css
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
 }
 
 #collage {
@@ -189,6 +178,7 @@ kontakt.html,
     grid-column-gap: 0;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-column-gap: 5vw;
+    grid-row-gap: 4vw;
 }
 
 #collage img {
@@ -198,34 +188,35 @@ kontakt.html,
 
 #first {
     display: grid;
+    grid-column-gap: 4vw;
     grid-template-columns: 1fr 3fr;
 }
 
 #second {
     display: grid;
+    grid-column-gap: 4vw;
     grid-template-columns: 1fr 3fr;
 }
 
 #third {
     display: grid;
+    grid-column-gap: 4vw;
     grid-template-columns: 1fr 3fr;
 }
 
 #fourth {
     display: grid;
+    grid-column-gap: 4vw;
     grid-template-columns: 1fr 1fr;
 }
 
 /*------------------Footer------------------*/
-/*
+
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
     height: 10vw;
     background-color: #fadac9;
     color: black;
     text-align: center;
     display: block;
-}*/
+}

@@ -1,14 +1,15 @@
-* {
-    box-sizing: border-box;
-}
-
-img {
-    width: 100%;
+html {
+    height: 100%;
 }
 
 body {
-
-    overflow-x: hidden;
+    height: 100%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background: rgb(192, 216, 213);
+    background: linear-gradient(0deg, rgba(192, 216, 213, 1) 0%, rgba(250, 218, 201, 1) 100%);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /*-----------------Header--------------------*/
@@ -103,87 +104,3 @@ kontakt.html,
     text-decoration-line: underline;
     text-decoration-color: #f25161;
 }
-
-
-/*------------------selve "om os" siden------------------------*/
-
-html {
-    height: 100%;
-}
-
-body {
-    height: 100%;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    background: rgb(192, 216, 213);
-    background: linear-gradient(0deg, rgba(192, 216, 213, 1) 0%, rgba(250, 218, 201, 1) 100%);
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-h2 {
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-}
-
-p {
-    color: black;
-    font-family: 'Castoro', serif;
-    line-height: 1.6;
-}
-
-#p2 {
-    margin: 0;
-}
-
-#topbox {
-    position: relative;
-    margin-top: 10vw;
-}
-
-
-
-#topbox {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 5vw;
-}
-
-
-#bundbox {
-    position: relative;
-    margin-top: 10vw;
-}
-
-#bundbox {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 5vw;
-}
-
-#bundbox p {
-    text-align: right;
-}
-
-.box {
-    display: flex;
-    align-items: top;
-
-}
-
-/*---------------media-q.---------------------*/
-
-/*
-@media (min-width: 950px) {
-    #about {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width:1200px) {
-    #about {
-        margin-bottom: 10rem;
-    }
-}
-*/

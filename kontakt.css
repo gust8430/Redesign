@@ -25,6 +25,7 @@ ul {
     align-items: baseline;
     z-index: 2;
     background-color: #fadac9;
+    left: 0;
 }
 
 li {
@@ -75,7 +76,6 @@ li a:hover:not(.active) {
 #headerlogo a:visited,
 #headerlogo a:hover,
 #headerlogo a:active {
-
     color: black;
 }
 
@@ -103,6 +103,7 @@ kontakt.html,
     text-decoration-line: underline;
     text-decoration-color: #f25161;
 }
+
 
 
 
