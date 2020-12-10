@@ -5,9 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sandgaarden</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="kontakt.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Castoro&family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -21,13 +22,48 @@
     </ul><br>
 
     <section id="kontakt">
+        <div id="kontakttekst">
+            <div id="topbox" class="box">
+                <div>
+                    <h2>Kontaktinformation</h2>
+                    <p id="kontaktinfo">
+                        Iben Barnstein Sørensen<br>
+                        Stokholtsvej 29<br>
+                        Bjernede<br>
+                        4173 Fjenneslev<br>
+                        Telefon: 28198916<br>
+                        Mail: sandgaarden@pc.dk<br>
+                    </p>
+                    <p id="copyline">Du er mere end velkommen til at sende en mail, hvis du har nogen spørgsmål eller gerne vil vide mere! </p>
+                </div>
+                <div>
+                    <img src="images/saga.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="kontaktformular">
+            <form action="action_page.php">
 
+                <label for="fname" class="kassetext">Fornavn</label>
+                <input type="text" id="fname" class="textfelt" name="firstname" placeholder="Dit fornavn..">
+
+                <label for="lname" class="kassetext">Efternavn</label>
+                <input type="text" id="lname" class="textfelt" name="lastname" placeholder="Dit efternavn..">
+
+
+                <label for="subject" class="kassetext">Emne</label>
+                <textarea id="subject" class="textfelt" name="subject" placeholder="Skriv besked.." style="height:200px"></textarea>
+
+                <input type="submit" value="Send">
+
+            </form>
+        </div>
     </section>
 
     <footer>
         <section id="Kontakt"></section>
     </footer>
-    <script src=""></script>
+
 </body>
 
 </html>
