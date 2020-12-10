@@ -35,17 +35,11 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
-p {
-    font-family: 'Roboto Slab', serif;
-    margin: 0;
-}
-
 /*-----------------Header--------------------*/
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
     top: 0;
     width: 100%;
     position: fixed;
@@ -55,6 +49,8 @@ ul {
     z-index: 2;
     background-color: #fadac9;
     left: 0;
+    padding-left: 0.8vw;
+    padding-right: 0.8vw;
 }
 
 li {
@@ -125,13 +121,18 @@ li a:hover:not(.active) {
 }
 
 /*------------------Forside------------------*/
+#forside p {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
 
 #baggrundsvideo {
-    background-image: url(images/banner.jpg);
+    background-image: url(images/frame.png);
     width: 95vw;
     height: 38vw;
     background-size: cover;
-    margin-top: 5vw;
+    margin-top: 3vw;
+    margin-left: 1.3vw;
 }
 
 #arrow {
@@ -140,6 +141,24 @@ li a:hover:not(.active) {
     width: 4vw;
     height: 4vw;
     margin-left: 47vw;
+
+}
+
+.bouncing {
+    animation-name: bouncing_kf;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bouncing_kf {
+    from {
+        transform: translateY(1vw);
+    }
+
+    to {
+        transform: translateY(0.5vw);
+    }
 }
 
 #velkommenboks {
@@ -161,11 +180,6 @@ li a:hover:not(.active) {
     margin-top: 9vw;
     margin-bottom: 10vw;
 }
-
-/*#produktboks,
-p {
-    margin-bottom: 5vw;
-}*/
 
 #buttons {
     display: grid;
@@ -241,12 +255,43 @@ p {
 
 footer {
     width: 100%;
-    height: 10vw;
-    background-color: #fadac9;
+    height: 15vw;
     color: black;
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-top-style: solid;
+    border-top-width: 0.15vw;
+    padding-top: 2vw;
 }
 
-#masterfooter {
-    padding: 10vw;
+#bundlogo {
+    margin-left: 1vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#topkontakt {
+    margin-top: 1.7vw;
+    margin-bottom: 2vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#bundkontakt {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#medier {
+    margin-top: 1.5vw;
+    display: flex;
+}
+
+#facebook {
+    background-image: url(images/facebook.webp);
+    width: 5vw;
+    height: 5vw;
+    background-size: cover;
+}
+
+#follow {
+    margin-top: 1.8vw;
+    font-family: 'Montserrat', sans-serif;
 }
