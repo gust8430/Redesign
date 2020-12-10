@@ -43,26 +43,26 @@ li a {
 
 /* unvisited link */
 li a:link {
-    color: #f25161;
+    color: black;
 }
 
 /* visited link */
 li a:visited {
-    color: #f25161;
+    color: black;
 }
 
 /* mouse over link */
 li a:hover {
-    color: #9c1623;
+    color: black;
 }
 
 /* selected link */
 li a:active {
-    color: #f25161;
+    color: black;
 }
 
 li a:hover:not(.active) {
-    color: #9c1623;
+    color: #f25161;
 }
 
 #headerlogo {
@@ -80,27 +80,18 @@ li a:hover:not(.active) {
     color: black;
 }
 
-forside.html,
-#forsidelink {
-    text-decoration-line: underline;
-    text-decoration-color: #f25161;
+.underline {
+    color: black;
+    position: relative;
+    display: inline-block;
 }
 
-varer.html,
-#varerlink {
-    text-decoration-line: underline;
-    text-decoration-color: #f25161;
-
-}
-
-about.html,
-#aboutlink {
-    text-decoration-line: underline;
-    text-decoration-color: #f25161;
-}
-
-kontakt.html,
-#kontaktlink {
-    text-decoration-line: underline;
-    text-decoration-color: #f25161;
+.underline::after {
+    content: '';
+    height: 2px;
+    width: 44%;
+    background: black;
+    position: absolute;
+    left: calc(39% - 10%);
+    bottom: 0.8vw;
 }
