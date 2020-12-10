@@ -1,4 +1,4 @@
-html {
+10.31 har sendt I dag kl. 10.31 html {
     height: 100%;
 }
 
@@ -12,7 +12,12 @@ body {
     background-size: cover;
 }
 
+<<<<<<< HEAD:forside.css
 #produktboks, img {
+=======
+#produktboks,
+img {
+>>>>>>> redesign/master:style.css
     width: 16vw;
     height: 12vw;
     background-size: cover;
@@ -164,10 +169,17 @@ kontakt.html,
 
 /*-------------------Collage------------------*/
 .center {
+<<<<<<< HEAD:forside.css
   margin: auto;
   width: 50%;
   border: 3px;
   padding: 10px;
+=======
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+>>>>>>> redesign/master:style.css
 }
 
 #collage {

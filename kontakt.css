@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+
+    overflow-x: hidden;
+}
+
+/*-----------------Header--------------------*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    z-index: 2;
+    background-color: #fadac9;
+}
+
+li {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+li a {
+    display: block;
+    padding: 1vw 1vw;
+    text-decoration: none;
+}
+
+/* unvisited link */
+li a:link {
+    color: #f25161;
+}
+
+/* visited link */
+li a:visited {
+    color: #f25161;
+}
+
+/* mouse over link */
+li a:hover {
+    color: #9c1623;
+}
+
+/* selected link */
+li a:active {
+    color: #f25161;
+}
+
+li a:hover:not(.active) {
+    color: #9c1623;
+}
+
+#headerlogo {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    justify-self: flex-start;
+    color: black;
+    flex-grow: 1;
+}
+
+#headerlogo a:link,
+#headerlogo a:visited,
+#headerlogo a:hover,
+#headerlogo a:active {
+
+    color: black;
+}
+
+forside.html,
+#forsidelink {
+    text-decoration-line: underline;
+    text-decoration-color: #f25161;
+}
+
+varer.html,
+#varerlink {
+    text-decoration-line: underline;
+    text-decoration-color: #f25161;
+
+}
+
+about.html,
+#aboutlink {
+    text-decoration-line: underline;
+    text-decoration-color: #f25161;
+}
+
+kontakt.html,
+#kontaktlink {
+    text-decoration-line: underline;
+    text-decoration-color: #f25161;
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: Gray;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.textfelt {
+    font-family: 'Castoro';
+}
+
+.kassetext {
+    font-family: 'Montserrat';
+}
+
+#kontaktformular {
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+
+/*------------------selve "om os" siden------------------------*/
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background: rgb(192, 216, 213);
+    background: linear-gradient(0deg, rgba(192, 216, 213, 1) 0%, rgba(250, 218, 201, 1) 100%);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h2 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+p {
+    color: black;
+    font-family: 'Castoro', serif;
+    line-height: 1.6;
+}
+
+#kontakttekst {
+    position: relative;
+    margin-top: 10vw;
+}
+
+#copyline {
+    margin-top: 2vw;
+}
+
+#kontaktinfo {
+    margin-top: 3vw;
+}
+
+
+
+#topbox {
+    position: relative;
+    margin-top: 10vw;
+}
+
+
+
+#topbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5vw;
+}
