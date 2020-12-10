@@ -37,6 +37,7 @@ h3 {
 
 p {
     font-family: 'Roboto Slab', serif;
+    margin: 0;
 }
 
 /*-----------------Header--------------------*/
@@ -138,7 +139,7 @@ li a:hover:not(.active) {
     background-size: cover;
     width: 4vw;
     height: 4vw;
-    margin-left: 46vw;
+    margin-left: 47vw;
 }
 
 #velkommenboks {
@@ -158,6 +159,29 @@ li a:hover:not(.active) {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 5vw;
     margin-top: 9vw;
+    margin-bottom: 10vw;
+}
+
+/*#produktboks,
+p {
+    margin-bottom: 5vw;
+}*/
+
+#buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.7vw;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
 }
 
 /*-------------------Collage------------------*/
@@ -166,8 +190,8 @@ li a:hover:not(.active) {
     display: grid;
     grid-template-rows: 1fr 0.5fr 1fr 1fr;
     grid-row-gap: 4vw;
-    margin-top: 17vw;
     margin-left: 14vw;
+    margin-top: 13vw;
 }
 
 #first {
