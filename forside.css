@@ -37,6 +37,11 @@ h3 {
 
 /*-----------------Header--------------------*/
 
+header {
+    margin-bottom: 4.65vw;
+}
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -50,7 +55,6 @@ ul {
     background-color: #fadac9;
     left: 0;
     padding-left: 0.8vw;
-    padding-right: 0.8vw;
 }
 
 li {
@@ -123,7 +127,7 @@ li a:hover:not(.active) {
 /*------------------Forside------------------*/
 #forside p {
     font-family: 'Roboto Slab', serif;
-    margin: 0;
+    /*margin: 0;*/
 }
 
 #baggrundsvideo {
@@ -131,8 +135,7 @@ li a:hover:not(.active) {
     width: 95vw;
     height: 38vw;
     background-size: cover;
-    margin-top: 3vw;
-    margin-left: 1.3vw;
+    margin: 3vw auto;
 }
 
 #arrow {
@@ -153,11 +156,11 @@ li a:hover:not(.active) {
 
 @keyframes bouncing_kf {
     from {
-        transform: translateY(1vw);
+        transform: translateY(-2vw);
     }
 
     to {
-        transform: translateY(0.5vw);
+        transform: translateY(-1.5vw);
     }
 }
 
@@ -178,7 +181,7 @@ li a:hover:not(.active) {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 5vw;
     margin-top: 9vw;
-    margin-bottom: 10vw;
+    margin-bottom: 22vw;
 }
 
 #buttons {
@@ -193,6 +196,19 @@ li a:hover:not(.active) {
     border-color: black;
     border-style: solid;
     border-width: 2px;
+    display: inline;
+}
+
+#button1 {
+    margin-bottom: 2vw;
+}
+
+#button2 {
+    margin-bottom: 3.399vw;
+}
+
+#button3 {
+    margin-bottom: 2vw;
 }
 
 /*-------------------Collage------------------*/
