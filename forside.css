@@ -131,7 +131,6 @@ li a:hover:not(.active) {
 }
 
 #baggrundsvideo {
-    background-image: url(images/frame.png);
     width: 95vw;
     height: 38vw;
     background-size: cover;
