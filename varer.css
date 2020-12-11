@@ -4,12 +4,50 @@ html {
 
 body {
     height: 100%;
-    margin-left: 10vw;
-    margin-right: 10vw;
     background: rgb(192, 216, 213);
     background: linear-gradient(0deg, rgba(192, 216, 213, 1) 0%, rgba(250, 218, 201, 1) 100%);
     background-attachment: fixed;
     background-size: cover;
+}
+
+main {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#produkter,
+img {
+    width: 22.6vw;
+    height: 16.950000000000003vw;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 4vw;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*---------------Produktgrid------------------*/
+
+#produkter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 4vw;
+}
+
+h3 {
+    margin-bottom: 5vw;
 }
 
 /*-----------------Header--------------------*/
@@ -94,4 +132,50 @@ li a:hover:not(.active) {
     position: absolute;
     left: calc(39% - 10%);
     bottom: 0.8vw;
+}
+
+/*------------------Footer------------------*/
+
+footer {
+    width: 100%;
+    height: 15vw;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-top-style: solid;
+    border-top-width: 0.15vw;
+    padding-top: 2vw;
+    margin-top: 64vw;
+}
+
+#bundlogo {
+    margin-left: 1vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#topkontakt {
+    margin-top: 1.7vw;
+    margin-bottom: 2vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#bundkontakt {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#medier {
+    margin-top: 1.5vw;
+    display: flex;
+}
+
+#facebook {
+    background-image: url(images/facebook.webp);
+    width: 5vw;
+    height: 5vw;
+    background-size: cover;
+}
+
+#follow {
+    margin-top: 1.8vw;
+    font-family: 'Montserrat', sans-serif;
 }
