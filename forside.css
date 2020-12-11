@@ -204,11 +204,11 @@ li a:hover:not(.active) {
 }
 
 #button2 {
-    margin-bottom: 3.399vw;
+    margin-bottom: 2vw;
 }
 
 #button3 {
-    margin-bottom: 2vw;
+    margin-bottom: 3.4vw;
 }
 
 /*-------------------Collage------------------*/
@@ -218,6 +218,11 @@ li a:hover:not(.active) {
     grid-template-rows: 1fr 0.5fr 0.5fr 1fr;
     grid-row-gap: 4vw;
     margin-top: 13vw;
+}
+
+#collage,
+p {
+    margin: 0;
 }
 
 #first {
