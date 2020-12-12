@@ -1,0 +1,180 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: rgb(192, 216, 213);
+    background: linear-gradient(0deg, rgba(192, 216, 213, 1) 0%, rgba(250, 218, 201, 1) 100%);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#produkter,
+img {
+    width: 22.6vw;
+    height: 16.950000000000003vw;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 4vw;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*----------------Indhold--------------------*/
+#produktside {
+    margin-bottom: 13vw;
+    padding-top: 2vw;
+}
+
+#grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+/*-----------------Header--------------------*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    z-index: 2;
+    background-color: #fadac9;
+    left: 0;
+}
+
+li {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+li a {
+    display: block;
+    padding: 1vw 1vw;
+    text-decoration: none;
+}
+
+/* unvisited link */
+li a:link {
+    color: black;
+}
+
+/* visited link */
+li a:visited {
+    color: black;
+}
+
+/* mouse over link */
+li a:hover {
+    color: black;
+}
+
+/* selected link */
+li a:active {
+    color: black;
+}
+
+li a:hover:not(.active) {
+    color: #f25161;
+}
+
+#headerlogo {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    justify-self: flex-start;
+    color: black;
+    flex-grow: 1;
+}
+
+#headerlogo a:link,
+#headerlogo a:visited,
+#headerlogo a:hover,
+#headerlogo a:active {
+    color: black;
+}
+
+.underline {
+    color: black;
+    position: relative;
+    display: inline-block;
+}
+
+.underline::after {
+    content: '';
+    height: 2px;
+    width: 44%;
+    background: black;
+    position: absolute;
+    left: calc(39% - 10%);
+    bottom: 0.8vw;
+}
+
+/*------------------Footer------------------*/
+
+footer {
+    width: 100%;
+    height: 15vw;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-top-style: solid;
+    border-top-width: 0.15vw;
+    padding-top: 2vw;
+}
+
+#bundlogo {
+    margin-left: 1vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#topkontakt {
+    margin-top: 1.7vw;
+    margin-bottom: 2vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#bundkontakt {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#medier {
+    margin-top: 1.5vw;
+    display: flex;
+}
+
+#facebook {
+    background-image: url(images/facebook.webp);
+    width: 5vw;
+    height: 5vw;
+    background-size: cover;
+}
+
+#follow {
+    margin-top: 1.8vw;
+    font-family: 'Montserrat', sans-serif;
+}
