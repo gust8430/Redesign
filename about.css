@@ -155,6 +155,51 @@ p {
     text-align: right;
 }
 
+/*------------------Footer------------------*/
+
+footer {
+    width: 100%;
+    height: 15vw;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-top-style: solid;
+    border-top-width: 0.15vw;
+    padding-top: 2vw;
+}
+
+#bundlogo {
+    margin-left: 1vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#topkontakt {
+    margin-top: 1.7vw;
+    margin-bottom: 2vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#bundkontakt {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#medier {
+    margin-top: 1.5vw;
+    display: flex;
+}
+
+#facebook {
+    background-image: url(images/facebook.webp);
+    width: 5vw;
+    height: 5vw;
+    background-size: cover;
+}
+
+#follow {
+    margin-top: 1.8vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
 /*
 .row {
     display: flex;

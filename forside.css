@@ -35,95 +35,6 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
-/*-----------------Header--------------------*/
-
-header {
-    margin-bottom: 4.65vw;
-}
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    top: 0;
-    width: 100%;
-    position: fixed;
-    display: flex;
-    justify-content: flex-end;
-    align-items: baseline;
-    z-index: 2;
-    background-color: #fadac9;
-    left: 0;
-    padding-left: 0.8vw;
-}
-
-li {
-    position: relative;
-    font-family: 'Montserrat', sans-serif;
-
-}
-
-li a {
-    display: block;
-    padding: 1vw 1vw;
-    text-decoration: none;
-}
-
-/* unvisited link */
-li a:link {
-    color: black;
-}
-
-/* visited link */
-li a:visited {
-    color: black;
-}
-
-/* mouse over link */
-li a:hover {
-    color: black;
-}
-
-/* selected link */
-li a:active {
-    color: black;
-}
-
-li a:hover:not(.active) {
-    color: #f25161;
-}
-
-#headerlogo {
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    justify-self: flex-start;
-    color: black;
-    flex-grow: 1;
-}
-
-#headerlogo a:link,
-#headerlogo a:visited,
-#headerlogo a:hover,
-#headerlogo a:active {
-    color: black;
-}
-
-.underline {
-    color: black;
-    position: relative;
-    display: inline-block;
-}
-
-.underline::after {
-    content: '';
-    height: 2px;
-    width: 44%;
-    background: black;
-    position: absolute;
-    left: calc(39% - 10%);
-    bottom: 0.8vw;
-}
-
 /*------------------Forside------------------*/
 #forside p {
     font-family: 'Roboto Slab', serif;
@@ -269,6 +180,90 @@ p {
 #fourth img {
     width: 28vw;
     height: 21vw;
+}
+
+/*-----------------Header--------------------*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    z-index: 2;
+    background-color: #fadac9;
+    left: 0;
+}
+
+li {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+li a {
+    display: block;
+    padding: 1vw 1vw;
+    text-decoration: none;
+}
+
+/* unvisited link */
+li a:link {
+    color: black;
+}
+
+/* visited link */
+li a:visited {
+    color: black;
+}
+
+/* mouse over link */
+li a:hover {
+    color: black;
+}
+
+/* selected link */
+li a:active {
+    color: black;
+}
+
+li a:hover:not(.active) {
+    color: #f25161;
+}
+
+#headerlogo {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    justify-self: flex-start;
+    color: black;
+    flex-grow: 1;
+}
+
+#headerlogo a:link,
+#headerlogo a:visited,
+#headerlogo a:hover,
+#headerlogo a:active {
+    color: black;
+}
+
+.underline {
+    color: black;
+    position: relative;
+    display: inline-block;
+}
+
+.underline::after {
+    content: '';
+    height: 2px;
+    width: 44%;
+    background: black;
+    position: absolute;
+    left: calc(39% - 10%);
+    bottom: 0.8vw;
 }
 
 /*------------------Footer------------------*/

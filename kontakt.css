@@ -11,6 +11,121 @@ body {
     overflow-x: hidden;
 }
 
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical;
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.7vw;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    display: inline;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    /*    background-color: Gray;*/
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: none;
+    padding: 20px;
+}
+
+.textfelt {
+    font-family: 'Castoro';
+}
+
+.kassetext {
+    font-family: 'Montserrat';
+}
+
+#kontaktformular {
+    margin-top: 3vw;
+    margin-bottom: 10vw;
+}
+
+/*------------------selve "om os" siden------------------------*/
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: rgb(192, 216, 213);
+    background: linear-gradient(0deg, rgba(192, 216, 213, 1) 0%, rgba(250, 218, 201, 1) 100%);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+h2 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+p {
+    color: black;
+    font-family: 'Castoro', serif;
+    line-height: 1.6;
+}
+
+#kontakttekst {
+    margin-top: 10vw;
+}
+
+#copyline {
+    margin-top: 2vw;
+}
+
+#kontaktinfo {
+    margin-top: 3vw;
+}
+
+
+
+#topbox {
+    margin-top: 10vw;
+}
+
+
+
+#topbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5vw;
+}
+
 /*-----------------Header--------------------*/
 
 ul {
@@ -95,116 +210,47 @@ li a:hover:not(.active) {
     bottom: 0.8vw;
 }
 
-/*-----------------Header--------------------*/
+/*------------------Footer------------------*/
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text],
-select,
-textarea {
+footer {
     width: 100%;
-    /* Full width */
-    padding: 12px;
-    /* Some padding */
-    border: 1px solid #ccc;
-    /* Gray border */
-    border-radius: 4px;
-    /* Rounded borders */
-    box-sizing: border-box;
-    /* Make sure that padding and width stays in place */
-    margin-top: 6px;
-    /* Add a top margin */
-    margin-bottom: 16px;
-    /* Bottom margin */
-    resize: vertical;
-    /* Allow the user to vertically resize the textarea (not horizontally) */
+    height: 15vw;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-top-style: solid;
+    border-top-width: 0.15vw;
+    padding-top: 2vw;
 }
 
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
+#bundlogo {
+    margin-left: 1vw;
     font-family: 'Montserrat', sans-serif;
-    padding: 0.7vw;
-    border-radius: 30px;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    display: inline;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    /*    background-color: Gray;*/
+#topkontakt {
+    margin-top: 1.7vw;
+    margin-bottom: 2vw;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/* Add a background color and some padding around the form */
-.container {
-    border-radius: 5px;
-    background-color: none;
-    padding: 20px;
+#bundkontakt {
+    font-family: 'Montserrat', sans-serif;
 }
 
-.textfelt {
-    font-family: 'Castoro';
+#medier {
+    margin-top: 1.5vw;
+    display: flex;
 }
 
-.kassetext {
-    font-family: 'Montserrat';
-}
-
-#kontaktformular {
-    margin-top: 3vw;
-    margin-bottom: 10vw;
-}
-
-/*------------------selve "om os" siden------------------------*/
-
-html {
-    height: 100%;
-}
-
-body {
-    height: 100%;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    background: rgb(192, 216, 213);
-    background: linear-gradient(0deg, rgba(192, 216, 213, 1) 0%, rgba(250, 218, 201, 1) 100%);
-    background-attachment: fixed;
+#facebook {
+    background-image: url(images/facebook.webp);
+    width: 5vw;
+    height: 5vw;
     background-size: cover;
 }
 
-h2 {
-    color: black;
+#follow {
+    margin-top: 1.8vw;
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
-}
-
-p {
-    color: black;
-    font-family: 'Castoro', serif;
-    line-height: 1.6;
-}
-
-#kontakttekst {
-    margin-top: 10vw;
-}
-
-#copyline {
-    margin-top: 2vw;
-}
-
-#kontaktinfo {
-    margin-top: 3vw;
-}
-
-
-
-#topbox {
-    margin-top: 10vw;
-}
-
-
-
-#topbox {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 5vw;
 }
