@@ -6,11 +6,6 @@ img {
     width: 100%;
 }
 
-body {
-
-    overflow-x: hidden;
-}
-
 /*-----------------Header--------------------*/
 
 ul {
@@ -104,12 +99,16 @@ html {
 
 body {
     height: 100%;
-    margin-left: 10vw;
-    margin-right: 10vw;
     background: rgb(192, 216, 213);
     background: linear-gradient(0deg, rgba(192, 216, 213, 1) 0%, rgba(250, 218, 201, 1) 100%);
     background-attachment: fixed;
     background-size: cover;
+}
+
+main {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 8vw;
 }
 
 h2 {
@@ -129,7 +128,7 @@ p {
 }
 
 #topbox {
-    margin-top: 10vw;
+    margin-top: 4vw;
 }
 
 
@@ -142,7 +141,7 @@ p {
 
 
 #bundbox {
-    margin-top: 10vw;
+    margin-top: 4vw;
 }
 
 #bundbox {
@@ -224,7 +223,7 @@ footer {
     }
 }
 */
-@media (min-width: 800px) {
+/*@media (min-width: 800px) {
     #about .section_wrapper {
         display: grid;
         grid-template-rows: 1fr 1fr;
@@ -241,4 +240,4 @@ footer {
         width: 100%;
         height: 100%;
     }
-}
+}*/
