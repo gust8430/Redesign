@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     height: 100%;
 }
@@ -137,12 +141,14 @@ p {
 
 #first {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr;
 }
 
 #first img {
     width: 48vw;
     height: 36vw;
+    position: relative;
+    left: 28vw;
 }
 
 #second {
@@ -309,4 +315,150 @@ footer {
 #follow {
     margin-top: 1.8vw;
     font-family: 'Montserrat', sans-serif;
+}
+
+/*------------------Media-Q------------------*/
+
+@media (max-width: 700px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        margin-top: 8vw;
+    }
+
+    footer {
+        width: 100%;
+        height: 15vw;
+        color: black;
+        display: grid;
+        grid-template-columns: 1fr;
+        border-top-style: solid;
+        border-top-width: 0.15vw;
+        padding-top: 2vw;
+        margin-top: 7vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    #facebook {
+        margin-top: 1.5vw;
+    }
+
+    #baggrundsvideo {
+        width: 95vw;
+        height: 38vw;
+        background-size: cover;
+        margin-top: 14vw;
+    }
+
+    #arrow {
+        display: none;
+    }
+
+    #forside {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #velkommenboks {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #velkommenboks #velkommenright {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    #produktboks {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 9vw;
+        margin-bottom: 22vw;
+    }
+
+    #produktboks #undervisning {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 3.5vw;
+
+    }
+
+    #produktboks #kommision {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 3.5vw;
+    }
+
+    #produktboks #rideterapi {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 3.5vw;
+    }
+
+    #produktboks,
+    img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    #collage img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    #collage {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.6fr 1fr 1fr 1fr;
+        margin-top: 14vw;
+    }
+
+    #first {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #first img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        left: 0;
+    }
+
+    #second {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #second p {
+        margin-top: 8vw;
+    }
+
+    #third {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #third p {
+        text-align: left;
+        margin-bottom: 8vw;
+    }
+
+    #fourth {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #fourth p {
+        margin-top: 8vw;
+    }
+
 }
