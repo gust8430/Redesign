@@ -48,7 +48,7 @@ h3 {
 }
 
 #baggrundsvideo {
-    width: 95vw;
+    width: 97vw;
     height: 38vw;
     background-size: cover;
     margin: 3vw auto;
@@ -98,6 +98,17 @@ h3 {
     grid-column-gap: 5vw;
     margin-top: 9vw;
     margin-bottom: 22vw;
+}
+
+#produktboks a:link,
+#produktboks a:visited,
+#produktboks a:hover,
+#produktboks a:active {
+    color: black;
+}
+
+#produktboks a {
+    text-decoration: none;
 }
 
 #buttons {
