@@ -319,6 +319,17 @@ footer {
     font-family: 'Montserrat', sans-serif;
 }
 
+footer a:link,
+footer a:visited,
+footer a:hover,
+footer a:active {
+    color: black;
+}
+
+footer a {
+    text-decoration: none;
+}
+
 /*------------------Media-Q------------------*/
 
 @media (max-width: 700px) {
