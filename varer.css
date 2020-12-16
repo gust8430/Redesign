@@ -97,7 +97,7 @@ ul {
     position: fixed;
     display: flex;
     justify-content: flex-end;
-    align-items: baseline;
+    align-items: center;
     z-index: 2;
     background-color: #fadac9;
     left: 0;
@@ -106,7 +106,6 @@ ul {
 li {
     position: relative;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 li a {
@@ -139,19 +138,22 @@ li a:hover:not(.active) {
     color: #f25161;
 }
 
-#headerlogo {
+.headerlogo a:hover:not(.active) {
+    color: black;
+}
+
+.headerlogo {
     font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
     justify-self: flex-start;
     color: black;
     flex-grow: 1;
+    text-decoration: none;
 }
 
-#headerlogo a:link,
-#headerlogo a:visited,
-#headerlogo a:hover,
-#headerlogo a:active {
+.headerlogo a {
     color: black;
+    text-decoration: none;
 }
 
 .underline {
@@ -168,6 +170,29 @@ li a:hover:not(.active) {
     position: absolute;
     left: calc(39% - 10%);
     bottom: 0.8vw;
+}
+
+/*--------------Mobil-Header----------------*/
+
+.headerlistemobil {
+    display: none;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+#burgerfane {
+    background-color: #fadac9;
+    line-height: 1.6;
+    z-index: 2;
+    position: relative;
+    text-align: right;
+}
+
+.hidden {
+    display: none;
 }
 
 /*------------------Footer------------------*/
@@ -235,6 +260,35 @@ footer a {
 /*------------------Media------------------*/
 
 @media (max-width: 700px) {
+
+    .headerlistemobil {
+        display: block;
+        position: fixed;
+        width: 100%;
+        background: #FADAC9;
+    }
+
+    .headerlogo {
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    #burgerknap {
+        display: inline-block;
+        font-size: 2rem;
+        position: absolute;
+        right: 1rem;
+    }
+
+    ul {
+        display: block;
+    }
+
+    .headerliste {
+        display: none;
+    }
+
+
     #produkter {
         display: grid;
         grid-template-columns: 1fr;
