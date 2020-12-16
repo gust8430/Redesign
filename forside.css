@@ -55,7 +55,7 @@ h3 {
     width: 97vw;
     height: 38vw;
     background-size: cover;
-    margin-top: -9vw;
+    margin-top: 19vw;
     margin-bottom: 3vw;
 }
 
@@ -231,7 +231,6 @@ ul {
 li {
     position: relative;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 li a {
@@ -264,19 +263,22 @@ li a:hover:not(.active) {
     color: #f25161;
 }
 
-#headerlogo {
+.headerlogo a:hover:not(.active) {
+    color: black;
+}
+
+.headerlogo {
     font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
     justify-self: flex-start;
     color: black;
     flex-grow: 1;
+    text-decoration: none;
 }
 
-#headerlogo a:link,
-#headerlogo a:visited,
-#headerlogo a:hover,
-#headerlogo a:active {
+.headerlogo a {
     color: black;
+    text-decoration: none;
 }
 
 .underline {
@@ -299,24 +301,23 @@ li a:hover:not(.active) {
 
 .headerlistemobil {
     display: none;
-    z-index: 10;
+    z-index: 2;
     position: fixed;
     top: 0;
     left: 0;
-}
-
-#burgerknap {
-    transform: scale(2);
-    padding-right: 2vw;
+    padding: 1rem;
 }
 
 #burgerfane {
     background-color: #fadac9;
+    line-height: 1.6;
+    z-index: 2;
+    position: relative;
+    text-align: right;
 }
 
 .hidden {
-    transform: translateX(-100%);
-    opacity: 0;
+    display: none;
 }
 
 /*------------------Footer------------------*/
@@ -386,7 +387,26 @@ footer a {
 @media (max-width: 700px) {
 
     .headerlistemobil {
-        display: flex;
+        display: block;
+        position: fixed;
+        width: 100%;
+        background: #FADAC9;
+    }
+
+    .headerlogo {
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    #burgerknap {
+        display: inline-block;
+        font-size: 2rem;
+        position: absolute;
+        right: 1rem;
+    }
+
+    ul {
+        display: block;
     }
 
     h1 {
@@ -419,7 +439,7 @@ footer a {
         width: 95vw;
         height: 38vw;
         background-size: cover;
-        margin-top: -16vw;
+        margin-top: 16vw;
     }
 
     #arrow {

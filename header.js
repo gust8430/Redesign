@@ -7,5 +7,4 @@ function sidenVises() {
 
 function toggleMenu() {
     document.querySelector("#burgerfane").classList.toggle("hidden");
-
 }

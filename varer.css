@@ -73,6 +73,11 @@ h3 {
     display: inline;
 }
 
+.button:hover:not(.active) {
+    color: white;
+    background-color: black;
+}
+
 h3 {
     margin-bottom: 2vw;
 }
