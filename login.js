@@ -62,7 +62,7 @@ class Login extends HTMLElement {
       .loginmodal-submit {
         border: 0px;
         color: #fff;
-        text-shadow: 0 1px rgba(0,0,0,0.1); 
+        text-shadow: 0 1px rgba(0,0,0,0.1);
         background-color: #4d90fe;
         padding: 17px 0px;
         font-size: 14px;
