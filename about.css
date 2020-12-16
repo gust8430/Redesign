@@ -161,7 +161,7 @@ footer {
     height: 15vw;
     color: black;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 0.8fr 1fr 1fr;
     border-top-style: solid;
     border-top-width: 0.15vw;
     padding-top: 2vw;
@@ -180,11 +180,6 @@ footer {
 
 #bundkontakt {
     font-family: 'Montserrat', sans-serif;
-}
-
-#medier {
-    margin-top: 1.5vw;
-    display: flex;
 }
 
 #facebook {
@@ -208,6 +203,16 @@ footer a:active {
 
 footer a {
     text-decoration: none;
+}
+
+#medier {
+    margin-top: 1.2vw;
+    display: flex;
+}
+
+footer h2 {
+    margin-top: 1.5vw;
+    font-size: 2rem;
 }
 
 /*---------------media-q.---------------------*/
