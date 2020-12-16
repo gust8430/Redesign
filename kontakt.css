@@ -66,7 +66,7 @@ input[type=submit]:hover {
 
 #kontaktformular {
     margin-top: 3vw;
-    margin-bottom: 10vw;
+    margin-bottom: 4vw;
 }
 
 /*------------------selve "om os" siden------------------------*/
@@ -94,11 +94,16 @@ h2 {
     margin: 0;
 }
 
-p {
+#kontakt p {
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.6;
+}
+
+/*p {
     color: black;
     font-family: 'Castoro', serif;
     line-height: 1.6;
-}
+}*/
 
 #kontakttekst {
     margin-top: 10vw;

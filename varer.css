@@ -24,8 +24,8 @@ img {
     width: 22.6vw;
     height: 16.950000000000003vw;
     background-size: cover;
-    margin-top: 4vw;
-    margin-bottom: 2vw;
+    margin-top: 1vw;
+    margin-bottom: -1vw;
 }
 
 h1 {
@@ -74,7 +74,11 @@ h3 {
 }
 
 h3 {
-    margin-bottom: 5vw;
+    margin-bottom: 2vw;
+}
+
+.col {
+    margin-bottom: 3vw;
 }
 
 /*-----------------Header--------------------*/
@@ -259,6 +263,10 @@ footer a {
 
     #facebook {
         margin-top: 1.5vw;
+    }
+
+    .col {
+        margin-bottom: 5vw;
     }
 
 }

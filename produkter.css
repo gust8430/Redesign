@@ -42,9 +42,14 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+#produktside p {
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.6;
+}
+
 /*----------------Indhold--------------------*/
 #produktside {
-    margin-bottom: 13vw;
+    margin-bottom: 5vw;
     padding-top: 2vw;
 }
 
